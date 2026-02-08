@@ -22,8 +22,11 @@ int main() {
   cout << "Enter APR: ";
   cin >> apr;
 
-  // Calculate Monthly Interest Rate
+  // Monthly Interest Rate
   double monthlyRate = (apr/100) / 12;
+
+  //Begin Table
+  cout << "\nMonth\tInt.\tPay\tBalance" << endl;
 
   
 }
