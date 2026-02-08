@@ -28,5 +28,12 @@ int main() {
   //Begin Table
   cout << "\nMonth\tInt.\tPay\tBalance" << endl;
 
-  
+  cout << month << "\t\t\t" << balance << endl;
+
+  // Main Function
+  while (balance > 0) {
+    month++;
+
+    double interesetAmount = balance * monthlyRate;
+  }
 }
