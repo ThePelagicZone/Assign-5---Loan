@@ -34,7 +34,7 @@ int main() {
   while (balance > 0) {
     month++;
 
-    double interesetAmount = balance * monthlyRate;
+    double interestAmount = balance * monthlyRate;
 
     //Final Payment Logic
     double finalPayment = monthlyPayment;
