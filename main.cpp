@@ -42,5 +42,8 @@ int main() {
     if ((balance + interestAmount) < monthlyPayment) {
       finalPayment = balance + interestAmount;
     }
+  
+  
   }
+
 }
