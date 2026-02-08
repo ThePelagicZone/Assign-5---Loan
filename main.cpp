@@ -36,6 +36,11 @@ int main() {
 
     double interesetAmount = balance * monthlyRate;
 
-    double appliedPayment = monthlyPayment;
+    //Final Payment Logic
+    double finalPayment = monthlyPayment;
+
+    if ((balance + interestAmount) < monthlyPayment) {
+      finalPayment = balance + interestAmount;
+    }
   }
 }
