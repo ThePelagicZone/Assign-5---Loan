@@ -30,10 +30,12 @@ int main() {
 
   cout << month << "\t\t\t" << balance << endl;
 
-  // Main Function
+  // Main Function - continue while money is owed
   while (balance > 0) {
     month++;
 
     double interesetAmount = balance * monthlyRate;
+
+    double appliedPayment = monthlyPayment;
   }
 }
