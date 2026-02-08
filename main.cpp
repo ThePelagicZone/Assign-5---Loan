@@ -12,5 +12,11 @@ int main() {
   int month = 0;
 
   cout << "Enter balance: ";
-  cin >> 
+  cin >> balance;
+
+  cout << "Enter Payment: ";
+  cin >> monthlyPayment;
+
+  cout << "Enter APR: ";
+  cin >> apr
 }
